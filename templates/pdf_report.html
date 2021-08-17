@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+
+    <section class="section">
+        <div class="container">
+            <!-- render yours custom data -->
+            {% for element in data %}
+                {{ element }}
+            {% endfor %}
+        </div>
+    </section>
+</body>
+</html>
